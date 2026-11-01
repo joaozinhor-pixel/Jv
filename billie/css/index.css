@@ -1,0 +1,5 @@
+body{--bg:linear-gradient(160deg,#e9f7d4,#f2f2f2)}
+nav{display:grid;gap:12px;margin-top:20px}
+.op{display:flex;align-items:center;gap:14px;text-align:left;padding:14px 16px;border-radius:18px;background:#fffa;color:inherit;text-decoration:none;font-size:19px;transition:transform .15s}
+.op:hover{transform:translateX(4px)}
+.op i{font-style:normal;width:40px;height:40px;border-radius:50%;background:#2f9e44;color:#fff;display:grid;place-items:center;flex:none;font-weight:700}

@@ -1,0 +1,6 @@
+body{background:#e9f7d4;transition:background 2s;display:flex;min-height:100vh}
+main{margin:auto}
+#relogio{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.bloco{background:#fffb;border-radius:18px;padding:16px 14px;min-width:78px}
+.bloco b{display:block;font-size:clamp(30px,10vw,52px)}
+@media (prefers-reduced-motion:reduce){body{transition:none}}

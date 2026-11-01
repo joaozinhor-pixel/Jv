@@ -1,0 +1,5 @@
+body{--bg:linear-gradient(160deg,#e9f7d4,#f2f2f2)}
+#grade{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:400px;margin:20px auto}
+.carta{aspect-ratio:1;border:0;border-radius:14px;background:#2f9e44;color:#fff;font-size:34px;cursor:pointer}
+.carta.aberta,.carta.par{background:#fff}
+.carta.par{opacity:.6}

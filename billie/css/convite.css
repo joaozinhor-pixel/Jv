@@ -1,0 +1,11 @@
+body{--bg:linear-gradient(160deg,#e9f7d4,#f2f2f2);display:flex;min-height:100vh;overflow:hidden}
+main{margin:auto;position:relative;z-index:1}
+.enfeite{font-size:72px;line-height:1}
+.botoes{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+#nao{background:#14210f}
+#nao.solto{position:fixed}
+a.btn{background:#1db954;margin-top:12px}
+video{max-width:100%;border-radius:16px;margin-top:16px}
+.brilho{position:fixed;top:-30px;pointer-events:none;animation:cair linear infinite;opacity:.8}
+@keyframes cair{to{transform:translateY(110vh)}}
+@media (prefers-reduced-motion:reduce){.brilho{display:none}}
